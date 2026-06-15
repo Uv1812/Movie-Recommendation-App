@@ -1,0 +1,32 @@
+@"
+# Virtual Environment
+.myenv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# ML Projects
+*.pkl
+*.joblib
+*.h5
+*.model
+data/
+models/
+cache/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
