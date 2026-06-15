@@ -31,7 +31,7 @@ stop_words = set(stopwords.words('english'))
 
 # Load and sample dataset
 try:
-    df = pd.read_csv("movies.csv")
+    df = pd.read_csv("movies.csv").sample(3000, random_state=42)
     logging.info("✅ Dataset loaded successfully. Total rows: %d", len(df))
 except Exception as e:
     logging.error("❌ Failed to load dataset: %s", str(e))
