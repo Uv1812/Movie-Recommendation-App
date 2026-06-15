@@ -46,3 +46,11 @@
 [2026-06-15 10:38:05,571] INFO - ✅ Top 5 recommendations ready.
 [2026-06-15 10:38:29,867] INFO - 🎬 Recommending movies for: 'The Pirates! In an Adventure with Scientists!'
 [2026-06-15 10:38:29,874] INFO - ✅ Top 5 recommendations ready.
+[2026-06-15 11:16:24,830] INFO - 🔁 Loading data...
+[2026-06-15 11:16:26,341] INFO - ✅ Data loaded successfully.
+[2026-06-15 11:16:43,648] INFO - 🎬 Recommending movies for: '3 Ninjas Kick Back'
+[2026-06-15 11:16:43,660] INFO - ✅ Top 5 recommendations ready.
+[2026-06-15 11:16:55,110] INFO - 🎬 Recommending movies for: '3 Ninjas Kick Back'
+[2026-06-15 11:16:55,130] INFO - ✅ Top 5 recommendations ready.
+[2026-06-15 11:17:00,127] INFO - 🎬 Recommending movies for: '10th & Wolf'
+[2026-06-15 11:17:00,141] INFO - ✅ Top 5 recommendations ready.
