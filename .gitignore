@@ -18,8 +18,6 @@ __pycache__/
 .vscode/
 
 # ML Projects
-*.pkl
-*.joblib
 *.h5
 *.model
 data/
