@@ -1,14 +1,13 @@
 # app.py
 import json
+import os
 import streamlit as st
 from recommend import df, recommend_movies
-from omdb_utils import get_movie_details
+from imdb_utils import get_movie_details
 
-
-config = json.load(open("config.json"))
-
-# OMDB api key
-OMDB_API_KEY = config["OMDB_API_KEY"]
+BASE_DIR = os.path.dirname(__file__)
+config = json.load(open(os.path.join(BASE_DIR, "config.json")))
+IMDB_API_KEY = config["IMDB_API_KEY"]
 
 st.set_page_config(
     page_title="Movie Recommender",
@@ -31,7 +30,7 @@ if st.button("🚀 Recommend Similar Movies"):
             st.success("Top similar movies:")
             for _, row in recommendations.iterrows():
                 movie_title = row['title']
-                plot, poster = get_movie_details(movie_title, OMDB_API_KEY)
+                plot, poster = get_movie_details(movie_title, IMDB_API_KEY)
 
                 with st.container():
                     col1, col2 = st.columns([1, 3])
