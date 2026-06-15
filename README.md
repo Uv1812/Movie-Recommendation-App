@@ -2,7 +2,7 @@
 
 A beautiful **Streamlit** web app that recommends similar movies based on your selection. Built with Python, using content-based filtering and OMDB API for posters & plots.
 
-![Movie Recommender]([https://via.placeholder.com/800x400?text=Movie+Recommender+Demo](https://github.com/user-attachments/assets/29cb6c73-0059-4008-a394-3e1d81661477))
+![Movie Recommender][(https://github.com/user-attachments/assets/29cb6c73-0059-4008-a394-3e1d81661477)]
 
 ---
 
